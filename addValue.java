@@ -1,3 +1,4 @@
+//enter new value in array
 import java.util.*;
 public class addValue {
     public static void main(String args[]){
@@ -5,8 +6,9 @@ public class addValue {
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter no. of element in array");
 int n=sc.nextInt();
-int a[]=new int[n];
-int b[]=new int[n+1];
+int a[]=new int[n];  //first array
+
+int b[]=new int[n+1]; //second array
 System.out.println("enter values");
 for(int i=0;i<n;i++){
     a[i]=sc.nextInt();
