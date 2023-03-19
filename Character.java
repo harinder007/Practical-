@@ -7,7 +7,7 @@ public class Character {
         System.out.println("Enter any word");
         String st=sc.nextLine();
         for(int i=1;i<=st.length();i++){
-            System.out.println("Chracter at "+i+" position is :"+st.charAt(i));
+            System.out.println("Chracter at "+i+ " position is :"+st.charAt(i));
         }
 
     }
