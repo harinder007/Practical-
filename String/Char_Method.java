@@ -3,7 +3,7 @@ package String;
 //char[] work same as java string
 public class Char_Method {
 public void show() { //method 1
-	char arr[]= {'j','a','v','a'}; //char type array
+	char arr[]= {'j','a','v','a '}; //char type array
 	String s=new String(arr);
 	System.out.println("value is :"+s); //java
 	System.out.println(arr); //j a v a	
