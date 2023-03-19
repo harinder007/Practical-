@@ -22,7 +22,7 @@ class BatchMember extends Batch{
 	}}
 	public class Delhi_Batch{
 		public static void main(String[] args) {
-			BatchMember obj = new BatchMember(1,"kajol", 1500, 125438 );
+			BatchMember obj = new BatchMember(1,"Harinder", 1500, 125438 );
 		obj.show();
 	}
 	
