@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 //[a-zA-z]=either upper/lower case and both (single char)
 //[^abc]=any char except abc,(single char)
 
-
 public class Regex_eg2 {
 	public static void main(String[] args) {
 	boolean b1= Pattern.matches("[A-aZ-z]","Z");	
