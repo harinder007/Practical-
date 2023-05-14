@@ -1,5 +1,4 @@
 package OverLoading;
-
 class exam{
 	
 	int marks() {
